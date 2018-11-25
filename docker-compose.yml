@@ -45,6 +45,6 @@ services:
       PHPLDAPADMIN_LDAP_HOSTS: "academy-ldap"
       PHPLDAPADMIN_HTTPS: "false"
     ports:
-      - "8085:80"
+      - "8085:80" 
     links:
       - academy-ldap
